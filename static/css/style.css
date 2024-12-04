@@ -57,10 +57,13 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+height: 100%;
+    overflow-y: auto;}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+
 
 hr {
   -webkit-box-sizing: content-box;
@@ -8554,9 +8557,9 @@ h1, h2, h3, h4, h5,
     margin-top: -100px;
     max-width: 1110px; }
   .hero .icon-video {
-    width: 90px;
-    height: 90px;
-    background: #fff;
+    width: 30px;
+    height: 30px;
+    
     -webkit-animation: pulse 2s infinite;
     animation: pulse 2s infinite;
     -webkit-border-radius: 50%;
@@ -9726,6 +9729,12 @@ textarea.form-control {
 
 .block-16 figure {
   position: relative; }
+
+
+
+.container-wrap {
+    height: auto; /* 确保内容可以自由扩展 */
+}
   .block-16 figure .play-button {
     position: absolute;
     top: 50%;
@@ -9734,9 +9743,8 @@ textarea.form-control {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 40px;
-    width: 90px;
-    height: 90px;
-    background: #fff;
+    width: 30px;
+    height: 30px;
     display: block;
     border-radius: 50%;
     opacity: .7; }
