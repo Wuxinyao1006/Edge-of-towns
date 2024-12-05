@@ -10300,3 +10300,37 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+
+/* 默认情况下，banner 显示 */
+.hero {
+  display: block;
+}
+
+/* 针对小屏设备隐藏 banner */
+@media (max-width: 768px) {
+  .hero {
+    display: none; /* 隐藏 banner */
+  }
+}
+
+
+/* 默认情况下，banner 显示 */
+.ftco-booking {
+  display: block;
+}
+
+/* 针对小屏设备隐藏 banner */
+@media (max-width: 768px) {
+  .ftco-booking {
+    display: none; /* 隐藏 banner */
+  }
+}
+
+
+
+
+
