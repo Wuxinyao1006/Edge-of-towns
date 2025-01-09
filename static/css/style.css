@@ -10330,7 +10330,7 @@ textarea.form-control {
   }
 }
 
-
-
-
+.list-unstyled li{padding-left:20px; }
+.ftco-footer-widget p {width: 90%;}
+.d-block p { font: 900; font-size: 20px; }
 
